@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interactive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="gallery-wrapper">
+        <h1>My Personal Image Gallery</h1>
+        <p class="subtitle">Click on any image to view it full screen</p>
+
+        <!-- Images Grid -->
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500" alt="Nature 1"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500" alt="Nature 2"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=500" alt="Nature 3"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=500" alt="Nature 4"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=500" alt="Nature 5"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500" alt="Nature 6"></div>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal (Hidden by default) -->
+    <div id="imageModal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="fullImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
